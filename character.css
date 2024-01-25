@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: #fff;
+    overflow-x: hidden;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    font-weight: bolder;
+    
+    
+    
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    font-weight: bolder;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    font-weight: bolder;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #00BFFF;
+    position: relative;
+    font-weight: bolder;
+    
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#FFA500;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+
+
+.c1{
+    padding: 20px 90px;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c1 span{
+    color: red;
+}
+
+img{
+    
+    width: 400px;
+    height: 500px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    transition: background 0.5s, transform 0.5s;
+
+}
+
+img:hover{
+    transform: translateY(-10px);
+}
+
+
+.c-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.c-list span{
+color: red;
+}
+
+.pad{
+    padding: 0 110px;
+}
+
+.i-list{
+    display: flex;
+}
+
+.c-list span.yo{
+    color: #FFA500;
+    margin-top: 0;
+    color: #ffffcc;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #00394d,
+        0 0 20px #00394d,
+        0 0 30px #00394d,
+        0 0 40px #00394d,
+        0 0 20px #00394d,
+        0 0 10px #00394d;
+}
+
+.c-list span.yu{
+    color: #FFA500;
+    margin-top: 0;
+    color: #ffffcc;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px red,
+        0 0 20px red,
+        0 0 30px red,
+        0 0 40px red,
+        0 0 20px red,
+        0 0 10px red;
+}
+
+.c-list span.yuu{
+    color: pink;
+}
+
+.c-list span.yuu{
+    
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px pink,
+        0 0 20px pink,
+        0 0 30px pink,
+        0 0 40px pink,
+        0 0 20px pink,
+        0 0 10px pink;
+}
+
+
+.e-list{
+    display: grid;
+    padding: 0 110px;
+}
+
+
+.e-list span.yu1{
+    
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px purple,
+        0 0 20px purple,
+        0 0 30px purple,
+        0 0 40px purple,
+        0 0 20px purple,
+        0 0 10px purple;
+}
+
+.e-list span.yu2{
+    
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px rgb(105, 206, 247),
+        0 0 20px rgb(105, 206, 247),
+        0 0 30px rgb(105, 206, 247),
+        0 0 40px rgb(105, 206, 247),
+        0 0 20px rgb(105, 206, 247),
+        0 0 10px rgb(105, 206, 247);
+}
+
+.e-list span.yu3{
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px rgb(134, 134, 134),
+        0 0 20px rgb(134, 134, 134),
+        0 0 30px rgb(134, 134, 134),
+        0 0 40px rgb(134, 134, 134) ,
+        0 0 20px rgb(134, 134, 134),
+        0 0 10px rgb(134, 134, 134);
+
+}
+
+.e-list span.yu4{
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px rgb(255, 36, 255),
+        0 0 20px rgb(255, 36, 255),
+        0 0 30px rgb(255, 36, 255),
+        0 0 40px rgb(255, 36, 255) ,
+        0 0 20px rgb(255, 36, 255),
+        0 0 10px rgb(255, 36, 255);
+
+}
+
+.e-list span.yu5{
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px rgb(10, 232, 248),
+        0 0 20px rgb(10, 232, 248),
+        0 0 30px rgb(10, 232, 248),
+        0 0 40px rgb(10, 232, 248),
+        0 0 20px rgb(10, 232, 248),
+        0 0 10px rgb(10, 232, 248);
+
+}
+
+.e-list span.yu6{
+    margin-top: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px rgb(255, 238, 0),
+        0 0 20px rgb(255, 238, 0),
+        0 0 30px rgb(255, 238, 0),
+        0 0 40px rgb(255, 238, 0),
+        0 0 20px rgb(255, 238, 0),
+        0 0 10px rgb(255, 238, 0);
+
+}
